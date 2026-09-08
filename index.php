@@ -1,7 +1,7 @@
 <?php
 /**
  * Login Page
- * Room Designer Application
+ * RoomSpace AI Application
  */
 require_once __DIR__ . '/includes/bootstrap.php';
 
@@ -30,8 +30,8 @@ $csrf_token = generate_csrf_token();
     <meta name="theme-color" content="#121018">
     <meta name="color-scheme" content="dark light">
     <meta name="csrf-token" content="<?php echo htmlspecialchars($csrf_token, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta name="description" content="Sign in to Room Designer - Design your perfect space">
-    <title>Sign In - Room Designer</title>
+    <meta name="description" content="Sign in to RoomSpace AI - Design your perfect space">
+    <title>Sign In - RoomSpace AI</title>
     <link rel="stylesheet" href="assets/css/style.css?v=2">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%237c3aed'/><text x='50' y='65' font-size='60' text-anchor='middle' fill='white' font-family='sans-serif'>R</text></svg>">
     <script>
