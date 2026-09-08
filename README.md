@@ -1,4 +1,4 @@
-# Room Designer
+# RoomSpace AI
 
 A web-based 3D room designer built with PHP 8 + MySQL (XAMPP) and a vanilla-JS
 THREE.js editor. Login/register your account, design rooms with furniture, and
@@ -6,6 +6,8 @@ save/load/share your layouts to MySQL.
 
 **Running at:** `http://localhost/room-designer/`
 **Stack:** PHP 8 + MySQL (XAMPP) · THREE.js (self-hosted ES modules) · Vanilla JS · Dark theme CSS
+
+> 3D room designer for people who struggle with interior design or have tight/small spaces.
 
 ---
 
