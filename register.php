@@ -28,7 +28,7 @@ header('Pragma: no-cache');
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#121018">
 <meta name="color-scheme" content="light dark">
-<title>Create account &middot; Room Designer</title>
+<title>Create account &middot; RoomSpace AI</title>
 <link rel="stylesheet" href="assets/css/style.css?v=2">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%237c3aed'/><text x='50' y='65' font-size='60' text-anchor='middle' fill='white' font-family='sans-serif'>R</text></svg>">
 <script>
@@ -53,7 +53,7 @@ header('Pragma: no-cache');
     <section class="auth__card" aria-labelledby="auth-title">
         <header class="auth__header">
             <h1 id="auth-title">Create your account</h1>
-            <p>Design rooms in 3D with Room Designer.</p>
+            <p>Design rooms in 3D with RoomSpace AI.</p>
         </header>
 
         <form id="register-form" class="auth__form" novalidate autocomplete="on" method="post" action="register.php">
