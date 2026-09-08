@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Rewrite auth endpoint URLs to action-based PHP scripts
+# URL /room-designer/api/auth/login  ->  auth.php?action=login
+RewriteRule ^auth/login$ auth.php?action=login [L,QSA]
+
+# URL /room-designer/api/auth/register  ->  auth.php?action=register
+RewriteRule ^auth/register$ auth.php?action=register [L,QSA]
+
+# URL /room-designer/api/auth/logout  ->  auth.php?action=logout
+RewriteRule ^auth/logout$ auth.php?action=logout [L,QSA]
+
+# URL /room-designer/api/auth/check  ->  auth.php?action=check
+RewriteRule ^auth/check$ auth.php?action=check [L,QSA]
