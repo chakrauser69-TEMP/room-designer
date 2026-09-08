@@ -7,8 +7,8 @@
     <meta name="theme-color" content="#121018">
     <meta name="color-scheme" content="dark light">
     <meta name="csrf-token" content="<?= htmlspecialchars(getCsrfToken()) ?>">
-    <meta name="description" content="Room Designer - Manage your room designs and templates">
-    <title>Room Designer - Dashboard</title>
+    <meta name="description" content="RoomSpace AI - Manage your room designs and templates">
+    <title>RoomSpace AI - Dashboard</title>
     <link rel="stylesheet" href="assets/css/style.css?v=2">
     <script>
         (function () {
@@ -25,7 +25,7 @@
 <body class="dashboard-page">
     <header class="topbar" role="banner">
         <div class="topbar-inner">
-            <a class="brand" href="dashboard.php" aria-label="Room Designer home">
+            <a class="brand" href="dashboard.php" aria-label="RoomSpace AI home">
                 <svg class="brand-mark" width="40" height="40" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
                     <rect x="2" y="2" width="36" height="36" rx="8" ry="8" fill="url(#brandGradient)"></rect>
                     <defs>
@@ -36,7 +36,7 @@
                     </defs>
                     <path d="M20 9 L31 18 L28.5 18 L28.5 29 L22 29 L22 22 L18 22 L18 29 L11.5 29 L11.5 18 L9 18 Z" fill="#ffffff"></path>
                 </svg>
-                <span class="brand-name">Room Designer</span>
+                <span class="brand-name">RoomSpace AI</span>
             </a>
             <nav class="user-menu" aria-label="User account">
                 <span class="username" aria-label="Current user"><?= htmlspecialchars(getUsername()) ?></span>
